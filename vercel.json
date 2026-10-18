@@ -1,14 +1,10 @@
-{
-  "redirects": [
+  "rewrites": [
     {
       "source": "/",
-      "destination": "/BabyCare-v1.0.0/index.html",
-      "permanent": false
+      "destination": "/index.html"
     },
     {
-      "source": "/admin",
-      "destination": "/BabyCare-v1.0.0/admin.html",
-      "permanent": false
+      "source": "/admin.html",
+      "destination": "/admin.html"
     }
   ]
-}

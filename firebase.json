@@ -14,11 +14,11 @@
     "rewrites": [
       {
         "source": "/admin",
-        "destination": "/BabyCare-v1.0.0/admin.html"
+        "destination": "/admin.html"
       },
       {
         "source": "/admin/**",
-        "destination": "/BabyCare-v1.0.0/admin.html"
+        "destination": "/admin.html"
       }
     ]
   },
