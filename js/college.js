@@ -576,14 +576,17 @@
             return newPhoto;
         },
 
-        // Delete Photo from Cloud Firestore
+        // Delete Photo from Cloud Firestore (and local state)
         deleteGalleryPhoto: async function (id) {
+            // Remove from Firestore if available
             if (isFirebaseReady && db && id.length > 10) {
                 await db.collection('gallery').doc(id).delete();
-            } else {
-                gallery = gallery.filter(g => g.id !== id);
-                setStoredData(STORAGE_GALLERY_KEY, gallery);
             }
+            // Update local gallery and storage
+            gallery = gallery.filter(g => g.id !== id);
+            setStoredData(STORAGE_GALLERY_KEY, gallery);
+            // Re-render the gallery UI
+            renderGallery();
         },
 
         // Update Settings in Cloud Firestore
