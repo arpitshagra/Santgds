@@ -74,7 +74,7 @@
         districtCode: '01 (Agra)',
         affiliation: 'Uttar Pradesh Madhyamik Shiksha Parishad (UPMSP), Prayagraj',
         address: 'Khandauli Road, Dharera, Etmadpur, Agra, Uttar Pradesh - 283202',
-        phone: '+91 95571 90111',
+        phone: '+91 97610 60222',
         email: 'info@santgdsintercollege.org',
         founder: 'Kshetrapal Sharma',
         director: 'Pursottam Sharma',

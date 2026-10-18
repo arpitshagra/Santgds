@@ -74,7 +74,7 @@ Sant G.D.S. Inter College caters to students from upper primary/middle grades up
 * **Address:** Sant G.D.S. Inter College, Khandauli Road, Dharera, Etmadpur, Agra, Uttar Pradesh - 283202
 * **Board Affiliation Code:** UPMSP Code 1820
 * **UDISE Code:** 09150600131
-* **Helpline / Contact:** +91 95571 90111
+* **Helpline / Contact:** +91 97610 60222
 * **Working Hours:** Monday to Saturday: 08:00 AM – 02:00 PM (Subject to seasonal winter/summer timings)
 * **Admissions Window:** Typically opens annually from April through July for regular academic sessions.
 
