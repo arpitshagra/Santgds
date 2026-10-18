@@ -1,8 +1,10 @@
 {
+  "version": 2,
   "rewrites": [
     { "source": "/", "destination": "/index.html" },
     { "source": "/admin.html", "destination": "/admin.html" },
     { "source": "/BabyCare-v1.0.0/(.*)", "destination": "/$1" }
   ]
 }
+
 
