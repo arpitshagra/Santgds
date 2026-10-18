@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Photo Gallery - Sant G.D.S. Inter College Dharera Agra</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Sant GDS Inter College photo gallery, school assembly, Independence Day, Saraswati Puja, Diwali Rangoli, Yoga session Dharera Agra" name="keywords">
+    <meta content="Explore campus photos and event celebrations at Sant G.D.S. Inter College, Khandauli Road, Dharera, Agra (UPMSP Code: 1820)." name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Montserrat:wght@300;400;500;600;700&family=Cinzel:wght@600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid border-bottom bg-light">
+        <div class="container topbar bg-primary py-2 d-none d-lg-block" style="border-radius: 0 40px">
+            <div class="d-flex justify-content-between align-items-center text-white">
+                <div class="top-info ps-2">
+                    <small class="me-3"><i class="fas fa-certificate text-secondary me-1"></i> <strong>UPMSP Code: 1820</strong></small>
+                    <small class="me-3"><i class="fas fa-fingerprint text-secondary me-1"></i> <strong>UDISE: 09150600131</strong></small>
+                    <small class="me-3"><i class="fas fa-map-marker-alt text-secondary me-1"></i> Khandauli Road, Dharera, Agra</small>
+                    <small><i class="fas fa-phone-alt text-secondary me-1"></i> +91 95571 90111</small>
+                </div>
+                <div class="top-link pe-2">
+                    <span class="badge bg-secondary text-dark fw-bold"><i class="fas fa-calendar-check me-1"></i> Mon - Sat: 8:00 AM - 2:00 PM</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="container px-0">
+            <nav class="navbar navbar-light navbar-expand-xl py-3">
+                <a href="index.html" class="navbar-brand d-flex align-items-center">
+                    <div class="me-3 d-flex align-items-center justify-content-center bg-primary text-warning rounded-circle shadow-sm" style="width: 55px; height: 55px;">
+                        <i class="fas fa-graduation-cap fa-2x"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-primary fw-bold mb-0" style="font-family: 'Cinzel', serif; font-size: 1.6rem;">SANT G.D.S.</h2>
+                        <small class="text-secondary fw-bold" style="font-size: 0.85rem; letter-spacing: 1px;">INTER COLLEGE • DHARERA (AGRA)</small>
+                    </div>
+                </a>
+                <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars text-primary"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About Us</a>
+                        <a href="gallery.html" class="nav-item nav-link active">Photo Gallery</a>
+                        <a href="notices.html" class="nav-item nav-link">Notice Board</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <a href="contact.html" class="btn btn-secondary px-4 py-2 rounded-pill fw-bold text-dark shadow-sm">
+                            <i class="fas fa-pen-alt me-1"></i> Admissions
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div class="container-fluid py-5 bg-primary text-white text-center position-relative" style="border-bottom: 4px solid #f8b400;">
+        <div class="container py-4">
+            <h1 class="display-4 text-white fw-bold mb-3">Campus Photo & Video Gallery</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a href="index.html" class="text-warning">Home</a></li>
+                    <li class="breadcrumb-item active text-white" aria-current="page">Photo Gallery</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- GALLERY SECTION -->
+    <div class="container-fluid py-5">
+        <div class="container py-4">
+            <div class="d-flex flex-wrap justify-content-between align-items-center mb-4">
+                <div>
+                    <span class="badge bg-secondary text-dark px-3 py-2 rounded-pill fw-bold mb-2">CAMPUS ALBUM</span>
+                    <h2 class="display-6 fw-bold text-primary mb-0">Memories, Celebrations & Daily Life</h2>
+                </div>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="d-flex flex-wrap gap-2 mb-4 justify-content-center justify-content-md-start">
+                <button class="btn btn-primary gallery-filter-btn active rounded-pill px-4" data-category="All">All Photos</button>
+                <button class="btn btn-outline-primary gallery-filter-btn rounded-pill px-4" data-category="Celebration">Celebration & Festivals</button>
+                <button class="btn btn-outline-primary gallery-filter-btn rounded-pill px-4" data-category="Campus">Campus & Assembly</button>
+                <button class="btn btn-outline-primary gallery-filter-btn rounded-pill px-4" data-category="Academics">Academics & Teachers</button>
+                <button class="btn btn-outline-primary gallery-filter-btn rounded-pill px-4" data-category="Sports">Sports & Yoga</button>
+            </div>
+
+            <!-- Photos Grid (Dynamically rendered by college.js) -->
+            <div class="row g-4" id="gallery-items-container">
+                <!-- Dynamically filled -->
+            </div>
+        </div>
+    </div>
+
+    <!-- CAMPUS VIDEOS SECTION -->
+    <div class="container-fluid py-5 bg-light border-top border-bottom">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <span class="badge bg-primary text-white px-3 py-2 rounded-pill mb-2">LIVE ACTIONS</span>
+                <h2 class="display-6 fw-bold text-primary">Campus Videos & Activities</h2>
+                <p class="text-muted">Watch students and teachers engaging in morning assemblies and vibrant school events.</p>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-6 col-md-8">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                        <div class="ratio ratio-16x9 bg-dark">
+                            <video controls class="w-100 h-100">
+                                <source src="../assets/images/WhatsApp Video 2026-10-18 at 10.25.23.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="card-body p-3 bg-white">
+                            <h5 class="fw-bold text-primary mb-1"><i class="fas fa-play-circle text-warning me-2"></i>School Assembly & Courtyard Gathering</h5>
+                            <p class="text-muted small mb-0">Students assembling in school uniform for morning prayer, discipline orders, and teacher announcements.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-8">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                        <div class="ratio ratio-16x9 bg-dark">
+                            <video controls class="w-100 h-100">
+                                <source src="../assets/images/WhatsApp Video 2026-10-18 at 10.25.24.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="card-body p-3 bg-white">
+                            <h5 class="fw-bold text-primary mb-1"><i class="fas fa-play-circle text-warning me-2"></i>Student Co-Curricular & Class Environment</h5>
+                            <p class="text-muted small mb-0">A glimpse of lively campus interactions, sports, and educational routine at Sant GDS Inter College.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER START -->
+    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-4">
+                    <div class="footer-item">
+                        <h4 class="text-primary fw-bold mb-3" style="font-family: 'Cinzel', serif;">SANT G.D.S. INTER COLLEGE</h4>
+                        <p class="text-body mb-3">
+                            A recognized UP Board institution committed to holistic education, discipline, and scientific inquiry for students of Dharera, Khandauli, and Etmadpur.
+                        </p>
+                        <div class="mb-2"><span class="badge bg-primary text-white me-2">UPMSP Code: 1820</span></div>
+                        <div><span class="badge bg-secondary text-dark fw-bold">UDISE: 09150600131</span></div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="footer-item">
+                        <h5 class="text-primary fw-bold mb-3">Quick Links</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><a href="index.html" class="text-body text-decoration-none"><i class="fas fa-angle-right text-secondary me-2"></i>Home</a></li>
+                            <li class="mb-2"><a href="about.html" class="text-body text-decoration-none"><i class="fas fa-angle-right text-secondary me-2"></i>About Us</a></li>
+                            <li class="mb-2"><a href="gallery.html" class="text-body text-decoration-none"><i class="fas fa-angle-right text-secondary me-2"></i>Photo Gallery</a></li>
+                            <li class="mb-2"><a href="notices.html" class="text-body text-decoration-none"><i class="fas fa-angle-right text-secondary me-2"></i>Notice Board</a></li>
+                            <li class="mb-2"><a href="contact.html" class="text-body text-decoration-none"><i class="fas fa-angle-right text-secondary me-2"></i>Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-2">
+                    <div class="footer-item">
+                        <h5 class="text-primary fw-bold mb-3">Administration</h5>
+                        <p class="mb-1 text-dark"><strong>Founder:</strong></p>
+                        <p class="text-muted small mb-2">Kshetrapal Sharma</p>
+                        <p class="mb-1 text-dark"><strong>Director:</strong></p>
+                        <p class="text-muted small mb-2">Pursottam Sharma</p>
+                        <p class="mb-1 text-dark"><strong>Principal:</strong></p>
+                        <p class="text-muted small mb-0">Rakhi Sharma</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="footer-item">
+                        <h5 class="text-primary fw-bold mb-3">Get in Touch</h5>
+                        <p class="text-body mb-2"><i class="fas fa-map-marker-alt text-secondary me-2"></i>Khandauli Road, Dharera, Etmadpur, Agra, UP - 283202</p>
+                        <p class="text-body mb-2"><i class="fas fa-phone-alt text-secondary me-2"></i>+91 95571 90111</p>
+                        <p class="text-body mb-2"><i class="fas fa-clock text-secondary me-2"></i>Mon - Sat: 08:00 AM – 02:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container border-top pt-4">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <span class="text-body">&copy; 2026 <strong>Sant G.D.S. Inter College Dharera Agra</strong>. All Rights Reserved.</span>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <span class="badge bg-light text-dark border">UP Board School Code: 1820 | District: Agra (01)</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER END -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-md-square rounded-circle back-to-top"><i class="fa fa-arrow-up text-white"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Firebase SDK (Compat) -->
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-storage-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics-compat.js"></script>
+
+    <!-- Template & College Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/college.js"></script>
+</body>
+</html>

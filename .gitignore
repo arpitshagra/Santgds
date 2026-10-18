@@ -1,0 +1,10 @@
+# Dependency directories
+node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.log
+
+# Large zip archives
+*.zip

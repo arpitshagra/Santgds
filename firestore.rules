@@ -1,0 +1,30 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Helper function to check authorized administrator Google accounts
+    function isAuthorizedAdmin() {
+      return request.auth != null && (
+        request.auth.token.email.lower() == 'arpitshagra@gmail.com' ||
+        request.auth.token.email.lower() == 'spurushottam123@gmail.com'
+      );
+    }
+
+    // Notices: Public read, only 2 authorized Google accounts can write
+    match /notices/{noticeId} {
+      allow read: if true;
+      allow write: if isAuthorizedAdmin();
+    }
+
+    // Gallery: Public read, only 2 authorized Google accounts can write
+    match /gallery/{photoId} {
+      allow read: if true;
+      allow write: if isAuthorizedAdmin();
+    }
+
+    // Settings & Security: Public read, only 2 authorized Google accounts can write
+    match /settings/{settingId} {
+      allow read: if true;
+      allow write: if isAuthorizedAdmin();
+    }
+  }
+}

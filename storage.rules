@@ -1,0 +1,18 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Helper function to check authorized administrator Google accounts
+    function isAuthorizedAdmin() {
+      return request.auth != null && (
+        request.auth.token.email.lower() == 'arpitshagra@gmail.com' ||
+        request.auth.token.email.lower() == 'spurushottam123@gmail.com'
+      );
+    }
+
+    // Public read for gallery photos; write restricted exclusively to 2 authorized Google accounts
+    match /gallery/{allPaths=**} {
+      allow read: if true;
+      allow write: if isAuthorizedAdmin();
+    }
+  }
+}
